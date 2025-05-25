@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "questionText": "Mikä on Suomen pääkaupunki?",
+    "options": ["Tukholma", "Helsinki", "Oslo", "Tallinna"],
+    "correctAnswerIndex": 1,
+    "categoryId": "yleistieto"
+  },
+  {
+    "id": 2,
+    "questionText": "Montako jalkaa hämähäkillä on?",
+    "options": ["Kuusi", "Kahdeksan", "Kymmenen", "Neljä"],
+    "correctAnswerIndex": 1,
+    "categoryId": "luonnontieteet"
+  },
+  {
+    "id": 3,
+    "questionText": "Mikä seuraavista EI ole planeetta aurinkokunnassamme?",
+    "options": ["Mars", "Venus", "Jupiter", "Kuu"],
+    "correctAnswerIndex": 3,
+    "categoryId": "luonnontieteet"
+  },
+  {
+    "id": 4,
+    "questionText": "Kuka kirjoitti 'Seitsemän veljestä'?",
+    "options": ["Mika Waltari", "Väinö Linna", "Aleksis Kivi", "Elias Lönnrot"],
+    "correctAnswerIndex": 2,
+    "categoryId": "yleistieto"
+  },
+  {
+    "id": 5,
+    "questionText": "Minä vuonna toinen maailmansota päättyi?",
+    "options": ["1942", "1945", "1950", "1939"],
+    "correctAnswerIndex": 1,
+    "categoryId": "historia"
+  },
+  {
+    "id": 6,
+    "questionText": "Mikä on Suomen kansalliseläin?",
+    "options": ["Karhu", "Susi", "Joutsen", "Ahma"],
+    "correctAnswerIndex": 0,
+    "categoryId": "yleistieto"
+  },
+  {
+    "id": 7,
+    "questionText": "Kuka maalasi 'Mona Lisan'?",
+    "options": ["Vincent van Gogh", "Pablo Picasso", "Leonardo da Vinci", "Claude Monet"],
+    "correctAnswerIndex": 2,
+    "categoryId": "taide"
+  },
+  {
+    "id": 8,
+    "questionText": "Mikä on maailman korkein vuori?",
+    "options": ["K2", "Mount Everest", "Kilimanjaro", "Mont Blanc"],
+    "correctAnswerIndex": 1,
+    "categoryId": "luonnontieteet"
+  },
+  {
+    "id": 9,
+    "questionText": "Kuka oli Suomen ensimmäinen presidentti?",
+    "options": ["Urho Kekkonen", "Johan Vilhelm Snellman", "Pehr Evind Svinhufvud", "Kaarlo Juho Ståhlberg"],
+    "correctAnswerIndex": 3,
+    "categoryId": "yhteiskunta"
+  },
+  {
+    "id": 10,
+    "questionText": "'The Beatles' oli alun perin kotoisin mistä kaupungista?",
+    "options": ["Lontoo", "Liverpool", "Manchester", "Birmingham"],
+    "correctAnswerIndex": 1,
+    "categoryId": "kulttuuri"
+  }
+]

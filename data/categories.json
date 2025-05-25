@@ -1,0 +1,34 @@
+[
+  {
+    "id": "yleistieto",
+    "name": "Yleistieto"
+  },
+  {
+    "id": "historia",
+    "name": "Historia"
+  },
+  {
+    "id": "luonnontieteet",
+    "name": "Luonnontieteet"
+  },
+  {
+    "id": "taide",
+    "name": "Taide"
+  },
+  {
+    "id": "kulttuuri",
+    "name": "Kulttuuri"
+  },
+  {
+    "id": "urheilu",
+    "name": "Urheilu"
+  },
+  {
+    "id": "teknologia",
+    "name": "Teknologia"
+  },
+  {
+    "id": "yhteiskunta",
+    "name": "Yhteiskunta"
+  }
+]

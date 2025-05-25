@@ -1,16 +1,27 @@
-import Hero from "@/components/hero";
-import ConnectSupabaseSteps from "@/components/tutorial/connect-supabase-steps";
-import SignUpUserSteps from "@/components/tutorial/sign-up-user-steps";
-import { hasEnvVars } from "@/utils/supabase/check-env-vars";
+import Link from 'next/link';
 
-export default async function Home() {
+export default function HomePage() {
   return (
-    <>
-      <Hero />
-      <main className="flex-1 flex flex-col gap-6 px-4">
-        <h2 className="font-medium text-xl mb-4">Next steps</h2>
-        {hasEnvVars ? <SignUpUserSteps /> : <ConnectSupabaseSteps />}
-      </main>
-    </>
+    <div style={{ textAlign: 'center', padding: '50px', fontFamily: 'Arial, sans-serif', margin: '200px' }}>
+      <h1 style={{ fontSize: '2.5em', marginBottom: '30px' }}>Tervetuloa Tietovisaan!</h1>
+      <p style={{ fontSize: '1.2em', marginBottom: '40px' }}>
+        Testaa tietosi ja pidä hauskaa!
+      </p>
+      <Link href="/quiz" legacyBehavior>
+        <a style={{
+          padding: '15px 30px',
+          fontSize: '1.2em',
+          cursor: 'pointer',
+          backgroundColor: 'cornflowerblue',
+          color: 'white',
+          border: 'none',
+          borderRadius: '5px',
+          textDecoration: 'none'
+        }}>
+          Aloita Peli
+        </a>
+      </Link>
+      {/* Linkki kirjautumiseen */}
+    </div>
   );
 }
